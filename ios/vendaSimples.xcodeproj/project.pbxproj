@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* vendaSimplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* vendaSimplesTests.m */; };
+		00E356F31AD99517003FC87E /* vitalePrimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* vitalePrimeTests.m */; };
 		0F69EE67E13F44C39AB7DB62 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 437637C6501B4E1EA02B897C /* Lato-Black.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,11 +16,11 @@
 		522284D93AA64BA09F3ACAB1 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80AF836B4B6040DB9A216DD1 /* Lato-Light.ttf */; };
 		5CCA1C5BE307445C98356C75 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEC5BDFEC2BD49FEAC8D482B /* Lato-LightItalic.ttf */; };
 		66D721CDC35244ABA8AE05DF /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95EF953C19034C0C82AB3340 /* Lato-Bold.ttf */; };
-		74209A5F59EA916089C5CBDC /* libPods-vendaSimples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 413E7B0FA86C8D2051C8B349 /* libPods-vendaSimples.a */; };
+		74209A5F59EA916089C5CBDC /* libPods-vitalePrime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 413E7B0FA86C8D2051C8B349 /* libPods-vitalePrime.a */; };
 		7443748E8BC2482C9A31C2C3 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB449FA5A683410F9FFECA71 /* Lato-BlackItalic.ttf */; };
 		755327EB5A194AD5A683B159 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B491114211754A50A56E7A56 /* Lato-ThinItalic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9EE7F22E5B2B31FD97A4C4FA /* libPods-vendaSimples-vendaSimplesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4AC09F17593C994DA45B9E /* libPods-vendaSimples-vendaSimplesTests.a */; };
+		9EE7F22E5B2B31FD97A4C4FA /* libPods-vitalePrime-vitalePrimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4AC09F17593C994DA45B9E /* libPods-vitalePrime-vitalePrimeTests.a */; };
 		A4B0D1B2D08A41A68AE4B0D8 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B223AF9A9783477A90716C0B /* Lato-Italic.ttf */; };
 		B29982DA0BE24165A0000F06 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50C484D4D40448EC83982301 /* Lato-Thin.ttf */; };
 		E64F76B8EFB54CF29E998C8E /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FFB8EA049F243ECB90D51F8 /* Lato-Regular.ttf */; };
@@ -32,36 +32,36 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = vendaSimples;
+			remoteInfo = vitalePrime;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* vendaSimplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vendaSimplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* vitalePrimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vitalePrimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* vendaSimplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vendaSimplesTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* vendaSimples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vendaSimples.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = vendaSimples/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = vendaSimples/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = vendaSimples/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = vendaSimples/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = vendaSimples/main.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* vitalePrimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vitalePrimeTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* vitalePrime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vitalePrime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = vitalePrime/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = vitalePrime/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = vitalePrime/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = vitalePrime/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = vitalePrime/main.m; sourceTree = "<group>"; };
 		1FFB8EA049F243ECB90D51F8 /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../src/assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
-		413E7B0FA86C8D2051C8B349 /* libPods-vendaSimples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vendaSimples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		413E7B0FA86C8D2051C8B349 /* libPods-vitalePrime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vitalePrime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		437637C6501B4E1EA02B897C /* Lato-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Black.ttf"; path = "../src/assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
 		50C484D4D40448EC83982301 /* Lato-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Thin.ttf"; path = "../src/assets/fonts/Lato-Thin.ttf"; sourceTree = "<group>"; };
-		6767B6ADEB173CA6EDE38A4B /* Pods-vendaSimples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vendaSimples.debug.xcconfig"; path = "Target Support Files/Pods-vendaSimples/Pods-vendaSimples.debug.xcconfig"; sourceTree = "<group>"; };
-		67F0CB36297D3ABB3390AB8A /* Pods-vendaSimples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vendaSimples.release.xcconfig"; path = "Target Support Files/Pods-vendaSimples/Pods-vendaSimples.release.xcconfig"; sourceTree = "<group>"; };
-		69410C557C459ADD6CD9D2B0 /* Pods-vendaSimples-vendaSimplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vendaSimples-vendaSimplesTests.release.xcconfig"; path = "Target Support Files/Pods-vendaSimples-vendaSimplesTests/Pods-vendaSimples-vendaSimplesTests.release.xcconfig"; sourceTree = "<group>"; };
+		6767B6ADEB173CA6EDE38A4B /* Pods-vitalePrime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vitalePrime.debug.xcconfig"; path = "Target Support Files/Pods-vitalePrime/Pods-vitalePrime.debug.xcconfig"; sourceTree = "<group>"; };
+		67F0CB36297D3ABB3390AB8A /* Pods-vitalePrime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vitalePrime.release.xcconfig"; path = "Target Support Files/Pods-vitalePrime/Pods-vitalePrime.release.xcconfig"; sourceTree = "<group>"; };
+		69410C557C459ADD6CD9D2B0 /* Pods-vitalePrime-vitalePrimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vitalePrime-vitalePrimeTests.release.xcconfig"; path = "Target Support Files/Pods-vitalePrime-vitalePrimeTests/Pods-vitalePrime-vitalePrimeTests.release.xcconfig"; sourceTree = "<group>"; };
 		80AF836B4B6040DB9A216DD1 /* Lato-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Light.ttf"; path = "../src/assets/fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = vendaSimples/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = vitalePrime/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95EF953C19034C0C82AB3340 /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../src/assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
-		AD8D9646D9BBBA7F58FBBA41 /* Pods-vendaSimples-vendaSimplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vendaSimples-vendaSimplesTests.debug.xcconfig"; path = "Target Support Files/Pods-vendaSimples-vendaSimplesTests/Pods-vendaSimples-vendaSimplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD8D9646D9BBBA7F58FBBA41 /* Pods-vitalePrime-vitalePrimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vitalePrime-vitalePrimeTests.debug.xcconfig"; path = "Target Support Files/Pods-vitalePrime-vitalePrimeTests/Pods-vitalePrime-vitalePrimeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ADDE1F14D6B04611AB0C1804 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-BoldItalic.ttf"; path = "../src/assets/fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
 		B223AF9A9783477A90716C0B /* Lato-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Italic.ttf"; path = "../src/assets/fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
 		B491114211754A50A56E7A56 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-ThinItalic.ttf"; path = "../src/assets/fonts/Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
 		CB449FA5A683410F9FFECA71 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-BlackItalic.ttf"; path = "../src/assets/fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
-		CD4AC09F17593C994DA45B9E /* libPods-vendaSimples-vendaSimplesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vendaSimples-vendaSimplesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4AC09F17593C994DA45B9E /* libPods-vitalePrime-vitalePrimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vitalePrime-vitalePrimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EEC5BDFEC2BD49FEAC8D482B /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-LightItalic.ttf"; path = "../src/assets/fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE7F22E5B2B31FD97A4C4FA /* libPods-vendaSimples-vendaSimplesTests.a in Frameworks */,
+				9EE7F22E5B2B31FD97A4C4FA /* libPods-vitalePrime-vitalePrimeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,20 +79,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74209A5F59EA916089C5CBDC /* libPods-vendaSimples.a in Frameworks */,
+				74209A5F59EA916089C5CBDC /* libPods-vitalePrime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* vendaSimplesTests */ = {
+		00E356EF1AD99517003FC87E /* vitalePrimeTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* vendaSimplesTests.m */,
+				00E356F21AD99517003FC87E /* vitalePrimeTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = vendaSimplesTests;
+			path = vitalePrimeTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -103,7 +103,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* vendaSimples */ = {
+		13B07FAE1A68108700A75B9A /* vitalePrime */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -113,15 +113,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = vendaSimples;
+			name = vitalePrime;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				413E7B0FA86C8D2051C8B349 /* libPods-vendaSimples.a */,
-				CD4AC09F17593C994DA45B9E /* libPods-vendaSimples-vendaSimplesTests.a */,
+				413E7B0FA86C8D2051C8B349 /* libPods-vitalePrime.a */,
+				CD4AC09F17593C994DA45B9E /* libPods-vitalePrime-vitalePrimeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* vendaSimples */,
+				13B07FAE1A68108700A75B9A /* vitalePrime */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* vendaSimplesTests */,
+				00E356EF1AD99517003FC87E /* vitalePrimeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D2417F22263BED09E5F58324 /* Pods */,
@@ -152,8 +152,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* vendaSimples.app */,
-				00E356EE1AD99517003FC87E /* vendaSimplesTests.xctest */,
+				13B07F961A680F5B00A75B9A /* vitalePrime.app */,
+				00E356EE1AD99517003FC87E /* vitalePrimeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,10 +178,10 @@
 		D2417F22263BED09E5F58324 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6767B6ADEB173CA6EDE38A4B /* Pods-vendaSimples.debug.xcconfig */,
-				67F0CB36297D3ABB3390AB8A /* Pods-vendaSimples.release.xcconfig */,
-				AD8D9646D9BBBA7F58FBBA41 /* Pods-vendaSimples-vendaSimplesTests.debug.xcconfig */,
-				69410C557C459ADD6CD9D2B0 /* Pods-vendaSimples-vendaSimplesTests.release.xcconfig */,
+				6767B6ADEB173CA6EDE38A4B /* Pods-vitalePrime.debug.xcconfig */,
+				67F0CB36297D3ABB3390AB8A /* Pods-vitalePrime.release.xcconfig */,
+				AD8D9646D9BBBA7F58FBBA41 /* Pods-vitalePrime-vitalePrimeTests.debug.xcconfig */,
+				69410C557C459ADD6CD9D2B0 /* Pods-vitalePrime-vitalePrimeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -189,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* vendaSimplesTests */ = {
+		00E356ED1AD99517003FC87E /* vitalePrimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vendaSimplesTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vitalePrimeTests" */;
 			buildPhases = (
 				F3757A7CCB2B50C3BA217813 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -205,14 +205,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = vendaSimplesTests;
-			productName = vendaSimplesTests;
-			productReference = 00E356EE1AD99517003FC87E /* vendaSimplesTests.xctest */;
+			name = vitalePrimeTests;
+			productName = vitalePrimeTests;
+			productReference = 00E356EE1AD99517003FC87E /* vitalePrimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* vendaSimples */ = {
+		13B07F861A680F5B00A75B9A /* vitalePrime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vendaSimples" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vitalePrime" */;
 			buildPhases = (
 				6ECCB0E837270838907F1BAB /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -227,9 +227,9 @@
 			);
 			dependencies = (
 			);
-			name = vendaSimples;
-			productName = vendaSimples;
-			productReference = 13B07F961A680F5B00A75B9A /* vendaSimples.app */;
+			name = vitalePrime;
+			productName = vitalePrime;
+			productReference = 13B07F961A680F5B00A75B9A /* vitalePrime.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -249,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vendaSimples" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vitalePrime" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,8 +262,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* vendaSimples */,
-				00E356ED1AD99517003FC87E /* vendaSimplesTests */,
+				13B07F861A680F5B00A75B9A /* vitalePrime */,
+				00E356ED1AD99517003FC87E /* vitalePrimeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -318,15 +318,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vendaSimples-vendaSimplesTests/Pods-vendaSimples-vendaSimplesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vitalePrime-vitalePrimeTests/Pods-vitalePrime-vitalePrimeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vendaSimples-vendaSimplesTests/Pods-vendaSimples-vendaSimplesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vitalePrime-vitalePrimeTests/Pods-vitalePrime-vitalePrimeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vendaSimples-vendaSimplesTests/Pods-vendaSimples-vendaSimplesTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vitalePrime-vitalePrimeTests/Pods-vitalePrime-vitalePrimeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1A9353ACE7E2501AFE6D6F7A /* [CP] Embed Pods Frameworks */ = {
@@ -335,15 +335,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vendaSimples/Pods-vendaSimples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vitalePrime/Pods-vitalePrime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vendaSimples/Pods-vendaSimples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vitalePrime/Pods-vitalePrime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vendaSimples/Pods-vendaSimples-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vitalePrime/Pods-vitalePrime-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6ECCB0E837270838907F1BAB /* [CP] Check Pods Manifest.lock */ = {
@@ -361,7 +361,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-vendaSimples-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-vitalePrime-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -374,15 +374,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vendaSimples-vendaSimplesTests/Pods-vendaSimples-vendaSimplesTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vitalePrime-vitalePrimeTests/Pods-vitalePrime-vitalePrimeTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vendaSimples-vendaSimplesTests/Pods-vendaSimples-vendaSimplesTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vitalePrime-vitalePrimeTests/Pods-vitalePrime-vitalePrimeTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vendaSimples-vendaSimplesTests/Pods-vendaSimples-vendaSimplesTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vitalePrime-vitalePrimeTests/Pods-vitalePrime-vitalePrimeTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F3757A7CCB2B50C3BA217813 /* [CP] Check Pods Manifest.lock */ = {
@@ -400,7 +400,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-vendaSimples-vendaSimplesTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-vitalePrime-vitalePrimeTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -432,15 +432,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vendaSimples/Pods-vendaSimples-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vitalePrime/Pods-vitalePrime-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vendaSimples/Pods-vendaSimples-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-vitalePrime/Pods-vitalePrime-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vendaSimples/Pods-vendaSimples-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vitalePrime/Pods-vitalePrime-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -450,7 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* vendaSimplesTests.m in Sources */,
+				00E356F31AD99517003FC87E /* vitalePrimeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,7 +468,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* vendaSimples */;
+			target = 13B07F861A680F5B00A75B9A /* vitalePrime */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,14 +476,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD8D9646D9BBBA7F58FBBA41 /* Pods-vendaSimples-vendaSimplesTests.debug.xcconfig */;
+			baseConfigurationReference = AD8D9646D9BBBA7F58FBBA41 /* Pods-vitalePrime-vitalePrimeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = vendaSimplesTests/Info.plist;
+				INFOPLIST_FILE = vitalePrimeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -497,17 +497,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vendaSimples.app/vendaSimples";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vitalePrime.app/vitalePrime";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69410C557C459ADD6CD9D2B0 /* Pods-vendaSimples-vendaSimplesTests.release.xcconfig */;
+			baseConfigurationReference = 69410C557C459ADD6CD9D2B0 /* Pods-vitalePrime-vitalePrimeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = vendaSimplesTests/Info.plist;
+				INFOPLIST_FILE = vitalePrimeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,20 +521,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vendaSimples.app/vendaSimples";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vitalePrime.app/vitalePrime";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6767B6ADEB173CA6EDE38A4B /* Pods-vendaSimples.debug.xcconfig */;
+			baseConfigurationReference = 6767B6ADEB173CA6EDE38A4B /* Pods-vitalePrime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = U2APQT3LC3;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = vendaSimples/Info.plist;
+				INFOPLIST_FILE = vitalePrime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,7 +546,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.vitaleprime;
-				PRODUCT_NAME = vendaSimples;
+				PRODUCT_NAME = vitalePrime;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -555,13 +555,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67F0CB36297D3ABB3390AB8A /* Pods-vendaSimples.release.xcconfig */;
+			baseConfigurationReference = 67F0CB36297D3ABB3390AB8A /* Pods-vitalePrime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = U2APQT3LC3;
-				INFOPLIST_FILE = vendaSimples/Info.plist;
+				INFOPLIST_FILE = vitalePrime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -573,7 +573,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.vitaleprime;
-				PRODUCT_NAME = vendaSimples;
+				PRODUCT_NAME = vitalePrime;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -707,7 +707,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vendaSimplesTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vitalePrimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -716,7 +716,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vendaSimples" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vitalePrime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -725,7 +725,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vendaSimples" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vitalePrime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

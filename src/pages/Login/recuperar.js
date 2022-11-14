@@ -7,7 +7,7 @@ import Colors from '~/styles/Colors';
 import * as RootNavigation from '~/routes/rootNavigation'
 import { useAuth } from '~/contexts/auth';
 import LogoBredas from '../../assets/logo_bredas.svg'
-import LogoVendaSimples from '../../assets/Logo_VendaSimples.svg'
+import LogovitalePrime from '../../assets/Logo_vitalePrime.svg'
 import LogoPDV from '../../assets/Logo.svg';
 import Spinner from "react-native-loading-spinner-overlay";
 
@@ -59,7 +59,7 @@ const Recuperar = () => {
                         marginBottom: 20
                     }}
                 >
-                    <LogoVendaSimples
+                    <LogovitalePrime
                         height={80}
                         width={250}
                     />

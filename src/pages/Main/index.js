@@ -3,7 +3,7 @@ import { Alert, StyleSheet, Text, TouchableOpacity, View, ImageBackground, Linki
 import Colors from '~/styles/Colors';
 import * as RootNavigation from '~/routes/rootNavigation'
 import { useAuth } from '~/contexts/auth';
-import LogoVendaSimples from '../../assets/vitale-prime-white.svg'
+import LogovitalePrime from '../../assets/vitale-prime-white.svg'
 import services from '~/services';
 
 const Main = () => {
@@ -45,7 +45,7 @@ const Main = () => {
 						marginTop: 40
 					}}
 				>
-					<LogoVendaSimples
+					<LogovitalePrime
 						height={80}
 						width={250}
 					/>
@@ -66,7 +66,7 @@ const Main = () => {
 					</Text>
 
 					<TouchableOpacity
-						onPress={() => RootNavigation.navigate("VendaSimples", { grupo: grupo, env: environment })}
+						onPress={() => RootNavigation.navigate("vitalePrime", { grupo: grupo, env: environment })}
 
 						style={styles.button}>
 						<Text style={{

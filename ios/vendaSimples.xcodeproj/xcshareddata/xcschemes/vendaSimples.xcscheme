@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "vendaSimples.app"
-               BlueprintName = "vendaSimples"
-               ReferencedContainer = "container:vendaSimples.xcodeproj">
+               BuildableName = "vitalePrime.app"
+               BlueprintName = "vitalePrime"
+               ReferencedContainer = "container:vitalePrime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "vendaSimplesTests.xctest"
-               BlueprintName = "vendaSimplesTests"
-               ReferencedContainer = "container:vendaSimples.xcodeproj">
+               BuildableName = "vitalePrimeTests.xctest"
+               BlueprintName = "vitalePrimeTests"
+               ReferencedContainer = "container:vitalePrime.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "vendaSimples.app"
-            BlueprintName = "vendaSimples"
-            ReferencedContainer = "container:vendaSimples.xcodeproj">
+            BuildableName = "vitalePrime.app"
+            BlueprintName = "vitalePrime"
+            ReferencedContainer = "container:vitalePrime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "vendaSimples.app"
-            BlueprintName = "vendaSimples"
-            ReferencedContainer = "container:vendaSimples.xcodeproj">
+            BuildableName = "vitalePrime.app"
+            BlueprintName = "vitalePrime"
+            ReferencedContainer = "container:vitalePrime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

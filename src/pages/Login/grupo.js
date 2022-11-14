@@ -4,7 +4,7 @@ import Button from '~/components/Button';
 import Input from '~/components/Input';
 import services from '~/services';
 import * as RootNavigation from '~/routes/rootNavigation'
-import LogoVendaSimples from '../../assets/vitale-prime-white.svg'
+import LogovitalePrime from '../../assets/vitale-prime-white.svg'
 import Spinner from "react-native-loading-spinner-overlay";
 import Notify from '~/components/Notify';
 import { useAuth } from '~/contexts/auth';
@@ -63,7 +63,7 @@ const Grupo = () => {
                     <View
                         style={styles.logo}
                     >
-                        <LogoVendaSimples
+                        <LogovitalePrime
                             height={80}
                             width={250}
                         />

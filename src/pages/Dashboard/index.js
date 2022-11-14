@@ -17,7 +17,7 @@ const Dashboard = ({ route, navigation }) => {
             }}>
 
                 <TouchableOpacity
-                    onPress={() => navigation.navigate("VendaSimples", route.params)}
+                    onPress={() => navigation.navigate("vitalePrime", route.params)}
                     style={{
                         height: 100,
                         width: 100,

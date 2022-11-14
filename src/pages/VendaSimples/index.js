@@ -8,7 +8,7 @@ import RNFS from 'react-native-fs';
 
 import { request, PERMISSIONS } from 'react-native-permissions';
 
-const VendaSimples = ({ route }) => {
+const vitalePrime = ({ route }) => {
     const {
         grupo,
         env
@@ -122,4 +122,4 @@ const VendaSimples = ({ route }) => {
     );
 }
 
-export default VendaSimples;
+export default vitalePrime;

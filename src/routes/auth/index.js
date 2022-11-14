@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import Main from '~/pages/Main';
-import VendaSimples from '~/pages/VendaSimples'
+import vitalePrime from '~/pages/vitalePrime'
 import LoginPDV from '~/pages/PDV/LoginPDV';
 import Clientes from '~/pages/PDV/Clientes';
 import DashboardPDV from '~/pages/PDV/Dashboard';
@@ -12,7 +12,7 @@ import Pedidos from '~/pages/PDV/Pedidos';
 import Produtos from '~/pages/PDV/Produtos';
 import { Alert, Image, Platform, Text, TouchableOpacity, View } from 'react-native';
 import { useAuth } from '~/contexts/auth';
-import LogoVendaSimples from '../../assets/Logo_VendaSimples.svg'
+import LogovitalePrime from '../../assets/Logo_vitalePrime.svg'
 import MenuLateralIcon from "../../assets/Menu.svg"
 const Stack = createStackNavigator();
 
@@ -71,8 +71,8 @@ const AppRoutes = () => {
             />
 
             <Stack.Screen
-                name="VendaSimples"
-                component={VendaSimples}
+                name="vitalePrime"
+                component={vitalePrime}
                 options={{
                     headerShown: false,
                     headerTitle: () => null,
