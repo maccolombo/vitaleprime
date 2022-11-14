@@ -6,8 +6,8 @@ import services from '~/services';
 import Colors from '~/styles/Colors';
 import * as RootNavigation from '~/routes/rootNavigation'
 import { useAuth } from '~/contexts/auth';
-import LogoBredas from '../../assets/logo_bredas.svg'
-import LogovitalePrime from '../../assets/Logo_vitalePrime.svg'
+// import LogoBredas from '../../assets/logo_bredas.svg'
+import LogovitalePrime from '../../assets/vitale-prime-white.svg'
 import LogoPDV from '../../assets/Logo.svg';
 import Spinner from "react-native-loading-spinner-overlay";
 

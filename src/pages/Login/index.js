@@ -5,7 +5,7 @@ import Input from '~/components/Input';
 import services from '~/services';
 import * as RootNavigation from '~/routes/rootNavigation'
 import { useAuth } from '~/contexts/auth';
-import LogovitalePrime from '../../assets/Logo_vitalePrime.svg'
+import LogovitalePrime from '../../assets/vitale-prime-white.svg'
 import Spinner from "react-native-loading-spinner-overlay";
 import Notify from '~/components/Notify';
 import CheckBox from '@react-native-community/checkbox';

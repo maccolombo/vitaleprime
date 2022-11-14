@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import Main from '~/pages/Main';
-import vitalePrime from '~/pages/vitalePrime'
+import vitalePrime from '~/pages/VitalePrime'
 import LoginPDV from '~/pages/PDV/LoginPDV';
 import Clientes from '~/pages/PDV/Clientes';
 import DashboardPDV from '~/pages/PDV/Dashboard';
@@ -12,7 +12,7 @@ import Pedidos from '~/pages/PDV/Pedidos';
 import Produtos from '~/pages/PDV/Produtos';
 import { Alert, Image, Platform, Text, TouchableOpacity, View } from 'react-native';
 import { useAuth } from '~/contexts/auth';
-import LogovitalePrime from '../../assets/Logo_vitalePrime.svg'
+import LogovitalePrime from '../../assets/vitale-prime-white.svg'
 import MenuLateralIcon from "../../assets/Menu.svg"
 const Stack = createStackNavigator();
 
