@@ -1,24 +1,37 @@
-import React from 'react';
-import '~/config/ReactotronConfig';
-import { Provider } from 'react-redux';
-import store from './store';
-import Routes from '~/routes';
-import { NavigationContainer } from '@react-navigation/native';
-import { navigationRef } from './routes/rootNavigation';
+import React, { useState } from 'react';
 import { StatusBar } from 'react-native';
-import Colors from './styles/Colors';
-import { AuthProvider } from "./contexts/auth";
+import WebView from 'react-native-webview';
+const VitalePrime = () => {
 
-const App = () => (
 
-  <Provider store={store} >
-    <NavigationContainer ref={navigationRef}>
-      <AuthProvider>
-        <StatusBar backgroundColor={"#b41267"} barStyle={"light-content"} />
-        <Routes />
-      </AuthProvider>
-    </NavigationContainer>
-  </Provider >
-);
+    const [url, setUrl] = useState(`https://vitaleprime.com`)
 
-export default App;
+    // const INJECTED_JAVASCRIPT_BEFORE = `(function() {
+    //     window.isNativeApp = true;
+    //     window.localStorage.setItem('token', '${token}');
+	// })();`;
+
+    return (
+        <>
+            <StatusBar backgroundColor="#B41267"/>
+            {/* <StatusBar translucent backgroundColor="transparent" /> */}
+            <WebView
+                source={{
+                    uri: url,
+                }}
+                allowsBackForwardNavigationGestures
+            // injectedJavaScriptBeforeContentLoaded={INJECTED_JAVASCRIPT_BEFORE}
+            // onMessage={(event) => handleEvents(event)}
+            // ref={(ref) => setWebRef(ref)}
+            // onNavigationStateChange={() => {
+            //     BackHandler.addEventListener("hardwareBackPress", backHandler)
+            // }}
+            // onFileDownload={({ nativeEvent: { downloadUrl } }) =>
+            //     console.log("onFIleDowload", downloadUrl)
+            // }
+            />
+        </>
+    );
+}
+
+export default VitalePrime;
