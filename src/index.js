@@ -1,19 +1,20 @@
 import React, { useState } from 'react';
 import { StatusBar } from 'react-native';
 import WebView from 'react-native-webview';
+
 const VitalePrime = () => {
 
 
-    const [url, setUrl] = useState(`https://vitaleprime.com`)
+    const [url, setUrl] = useState(`https://mobile.vitaleprime.com`)
 
     // const INJECTED_JAVASCRIPT_BEFORE = `(function() {
     //     window.isNativeApp = true;
     //     window.localStorage.setItem('token', '${token}');
-	// })();`;
+    // })();`;
 
     return (
         <>
-            <StatusBar backgroundColor="#B41267"/>
+            <StatusBar backgroundColor="#B41267" />
             {/* <StatusBar translucent backgroundColor="transparent" /> */}
             <WebView
                 source={{

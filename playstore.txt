@@ -1,0 +1,5 @@
+vitaleprime-upload-key.keystore
+
+vitaleprime-key-alias
+
+senhas: vitaleprime
