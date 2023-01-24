@@ -4,7 +4,7 @@ import WebView from 'react-native-webview';
 const VitalePrime = () => {
 
 
-    const [url, setUrl] = useState(`https://vitaleprime.com`)
+    const [url, setUrl] = useState(`https://mobile.vitaleprime.com`)
 
     // const INJECTED_JAVASCRIPT_BEFORE = `(function() {
     //     window.isNativeApp = true;
