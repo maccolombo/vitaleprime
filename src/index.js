@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { StatusBar } from 'react-native';
+import { StatusBar, View, Platform } from 'react-native';
 import WebView from 'react-native-webview';
-
 const VitalePrime = () => {
 
 
@@ -11,11 +10,18 @@ const VitalePrime = () => {
     //     window.isNativeApp = true;
     //     window.localStorage.setItem('token', '${token}');
     // })();`;
+    const CostumStatusBar = () => (
+        Platform.OS === "ios" ? (
+            <View style={{ height: 20, backgroundColor: "#B41267" }} />
+        ) : (
+            <StatusBar backgroundColor="#B41267" />
+        )
+    )
+
 
     return (
         <>
-            <StatusBar backgroundColor="#B41267" />
-            {/* <StatusBar translucent backgroundColor="transparent" /> */}
+            <CostumStatusBar />
             <WebView
                 source={{
                     uri: url,
@@ -36,3 +42,4 @@ const VitalePrime = () => {
 }
 
 export default VitalePrime;
+
